@@ -124,7 +124,8 @@ En somme, le projet allie les technologies de cloud, de conteneurisation, d'auto
 - **Terraform** est un outil d'Infrastructure as Code (IaC) qui permet de créer, modifier et versionner l'infrastructure de manière sécurisée et efficace. Il utilise des fichiers de configuration pour décrire les ressources nécessaires à l'exécution d'une application ou d'un service, et peut gérer les fournisseurs de services cloud tels que Azure, kubernetes, AWS, Google Cloud, et d'autres.
 
 ## Schéma de l'infrastructure à déployer ou de l'application à mettre en production
-![Untitled Diagram(3)](https://hackmd.io/_uploads/HkPObTFPT.jpg)
+![HkPObTFPT](https://github.com/G-sarais/Projet_fin_Formation/assets/99554412/556b3f23-f895-471a-a8e4-13c79526f2ae)
+
 
 
 
@@ -356,7 +357,7 @@ Ce fichier est configuré pour automatiser le déploiement et la gestion de mon 
             - Application de la configuration Terraform avec l'option -auto-approve et passage de variables.
 
 ## Coûts
-![image](https://hackmd.io/_uploads/rJNR3J5PT.png)
+![rJNR3J5PT](https://github.com/G-sarais/Projet_fin_Formation/assets/99554412/6e640587-60fe-47a5-87eb-9edfaafe140c)
 
 Le coût estimé pour le fonctionnement mensuel des services Azure de mon projet est de 192,92 €. Ce budget inclut un cluster Azure Kubernetes Service (AKS) configuré avec un minimum de deux nœuds pour permettre un scaling horizontal selon les besoins, situé dans la région Ouest de l'Europe. La gestion de ce cluster est estimée à 186,52 € mensuellement. Chaque nœud du cluster est équipé de 2 vCPUs A2 v2 et 4 GB de RAM, ce qui représente un choix optimal entre performance et coût pour la base de l'infrastructure.
 
@@ -504,7 +505,8 @@ Certains choix que j'ai faits m'ont fait perdre du temps, mais ils m'ont aussi a
 Si j'avais à refaire ce projet, il y aurait beaucoup de choses que je ferais différemment, grâce à l'expérience acquise et pour gagner du temps. Mais dans l'ensemble, j'ai réussi à atteindre mes objectifs principaux.
 
 ## Perspectives d'évolution du projet
-![Untitled Diagram(3)(1)](https://hackmd.io/_uploads/HJyPZ6KD6.jpg)
+![HJyPZ6KD6](https://github.com/G-sarais/Projet_fin_Formation/assets/99554412/f93550f0-d85c-4256-a335-59add56308bd)
+
 
 ### Amélioration du Dashboard Grafana :
   - Intégrer un runner GitLab directement dans le cluster pour une meilleure gestion et mise à jour des dashboards Grafana.
@@ -532,12 +534,12 @@ Si j'avais à refaire ce projet, il y aurait beaucoup de choses que je ferais di
 
 # Annexes
 ## N8N
-![image](https://hackmd.io/_uploads/SkbHK0FDa.png)
-![image](https://hackmd.io/_uploads/rJM1cAKwT.png)
+![SkbHK0FDa](https://github.com/G-sarais/Projet_fin_Formation/assets/99554412/7a8512af-bc89-4e89-a15d-b99641b880ab)
+![rJM1cAKwT](https://github.com/G-sarais/Projet_fin_Formation/assets/99554412/f09f96b8-41bf-4013-a80b-7a90bc14800f)
 
 ## Rocket.chat
 
-![image](https://hackmd.io/_uploads/HJW490tPT.png)
+![HJW490tPT](https://github.com/G-sarais/Projet_fin_Formation/assets/99554412/7a92034e-47ba-4da1-af0c-cb9d68f8d090)
 
 ## Pipeline
 ```
